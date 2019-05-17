@@ -2,8 +2,8 @@ def square_array(array)
   # your code here
   newArray = []
   array.each do |item|
-    item = item ** item
-    newArray.push(item)
+    newitem = item ** item
+    newArray.push(newitem)
     puts newArray
   end
 end
