@@ -1,4 +1,6 @@
 def square_array(array)
   # your code here
-  array.select { |a| a < array.length }
+  array.each do |i|
+    i ** 2
+  end
 end
