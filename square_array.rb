@@ -3,7 +3,7 @@ def square_array(array)
   newArray = []
   array.each do |item|
     item = item ** item
-    push.newArray(item)
+    newArray.push(item)
     puts newArray
   end
 end
