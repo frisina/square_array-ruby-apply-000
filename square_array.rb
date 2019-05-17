@@ -4,6 +4,6 @@ def square_array(array)
   array.each do |item|
     newitem = item * item
     newArray.push(newitem)
-    puts newArray
+    return newArray
   end
 end
